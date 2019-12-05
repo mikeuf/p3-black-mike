@@ -14,9 +14,7 @@ header, main {
     padding: 1rem.
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #333333;
-}
+
 
 header h1 {
     font-family: 'Permanent Marker', cursive;
@@ -56,7 +54,6 @@ header h1 {
     
 }
 
-
 #lower-right {
 
 }
@@ -68,14 +65,14 @@ header h1 {
 
 
 .red {
-    color: rgba(255,59,48,1);
+    color: rgba(255,59,48,1) !important;
 }
 .yellow {
-    color: rgba(255,204,0,1);
+    color: rgba(255,204,0,1) !important;
 }
 .green {
-    color: rgba(40,205,65,1);
+    color: rgba(40,205,65,1) !important;
 }
 .blue {
-    color: rgba(0,122,255,1);
+    color: rgba(0,122,255,1) !important;
 }
