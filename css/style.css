@@ -36,7 +36,7 @@ header h1 {
     text-align: center;
     padding: 1rem;
   
-    transition: opacity 0.25s ease , transform 2s ease; 
+    transition: all 0.25s;
     opacity: 1;
 
 }
