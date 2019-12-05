@@ -22,6 +22,8 @@ doColorLoop () {};
 doNumberLoop () {};
 doFinalChoice () {};
 
+getFortune () {};
+
 addEventColorLoop
 
 addEventNumberLoop () {};
@@ -40,7 +42,22 @@ do
 
 
 
-const FORTUNES = {};
+const FORTUNES = [
+'You are worth a fortune.', 
+'Hard work pays off in the future. Procrastination pays off now.',
+'A soft voice may be awfully persuasive.',
+'Not all those who wander are lost.',
+'Never forget a friend. Especially a friend who owes you money.',
+'He who laughs at himself never runs out of things to laugh at.',
+'All fortunes are wrong except this one.',
+'Advice, when most needed, is least heeded.',
+'Failure is the chance to do better next time.',
+'If you look back, you\'ll soon be going that way.'];
+
+
+
+
+
 
 
 
