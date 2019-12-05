@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+}
+
+.page-container {
+    width: 100%;
+}
+
+header, main {
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    margin: auto;
+    padding: 1rem.
+}
+
+fortune-teller-container {
+    display: flex;
+    align-items: stretch;
+}
+
+.panel {
+    flex: 0 0 480px;
+    box-sizing: border-box;
+    border: solid 0.25rem #777777;
+    text-align: center;
+    padding: 40% 1rem 40% 1rem;
+}
+
+#red {
+    color: red;
+}
+#yellow {
+    color: yellow;
+}
+#green {
+    color: green;
+}
+#blue{
+    color: blue;
+}
