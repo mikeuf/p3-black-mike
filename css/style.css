@@ -8,10 +8,14 @@ body {
 
 header, main {
     width: 100%;
-    max-width: 960px;
+    max-width: 720px;
     height: 100%;
     margin: auto;
     padding: 1rem.
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
 }
 
 header h1 {
@@ -23,14 +27,14 @@ header h1 {
     flex-direction: row;
     /* align-items: stretch; */
     flex-wrap: wrap;
-    height: 960px;
+    height: 720px;
 }
 
 .panel {
-    flex: 0 0 480px;
+    flex: 0 0 360px;
     box-sizing: border-box;
-    height: 480px;
-    border: solid 0.25rem #777777;
+    height: 360px;
+    border: solid 0.25rem #333333;
     text-align: center;
     padding: 1rem;
 
@@ -44,17 +48,34 @@ header h1 {
     font-size: 3rem;
 }
 
+#upper-left {
+
+}
+
+#upper-right {
+    
+}
 
 
-#red h2 {
+#lower-right {
+
+}
+
+#lower-left {
+    
+}
+
+
+
+.red {
     color: rgba(255,59,48,1);
 }
-#yellow h2 {
+.yellow {
     color: rgba(255,204,0,1);
 }
-#green h2 {
+.green {
     color: rgba(40,205,65,1);
 }
-#blue h2 {
+.blue {
     color: rgba(0,122,255,1);
 }
