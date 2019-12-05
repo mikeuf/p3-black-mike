@@ -35,8 +35,9 @@ header h1 {
     border: solid 0.25rem #333333;
     text-align: center;
     padding: 1rem;
+    border-radius: 0;
   
-    transition: all 0.25s;
+    transition: opacity 0.25s ease, transform 1s ease, border-upper-left-radius 1s ease;
     opacity: 1;
 
 }
@@ -66,10 +67,20 @@ header h1 {
 }
 
 
-.rotate {
-    transform: rotate(360deg);
-  
+.rotate-upper-left {
+    transform: rotate(-45deg);
+    border-top-left-radius: 50%;
 }
+.rotate-upper-right {
+    transform: rotate(45deg);
+}
+.rotate-lower-left {
+    transform: rotate(-45deg);
+}
+.rotate-lower-right {
+    transform: rotate(45deg);
+}
+
 
 .fade {
    opacity: 0;
