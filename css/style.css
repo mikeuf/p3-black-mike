@@ -14,28 +14,47 @@ header, main {
     padding: 1rem.
 }
 
-fortune-teller-container {
+header h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#fortune-teller-container {
     display: flex;
-    align-items: stretch;
+    flex-direction: row;
+    /* align-items: stretch; */
+    flex-wrap: wrap;
+    height: 960px;
 }
 
 .panel {
     flex: 0 0 480px;
     box-sizing: border-box;
+    height: 480px;
     border: solid 0.25rem #777777;
     text-align: center;
-    padding: 40% 1rem 40% 1rem;
+    padding: 1rem;
+
 }
 
-#red {
-    color: red;
+.panel h2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
 }
-#yellow {
-    color: yellow;
+
+
+
+#red h2 {
+    color: rgba(255,59,48,1);
 }
-#green {
-    color: green;
+#yellow h2 {
+    color: rgba(255,204,0,1);
 }
-#blue{
-    color: blue;
+#green h2 {
+    color: rgba(40,205,65,1);
+}
+#blue h2 {
+    color: rgba(0,122,255,1);
 }
