@@ -35,6 +35,9 @@ header h1 {
     border: solid 0.25rem #333333;
     text-align: center;
     padding: 1rem;
+  
+    transition: opacity 0.25s ease , transform 2s ease; 
+    opacity: 1;
 
 }
 
@@ -60,6 +63,17 @@ header h1 {
 
 #lower-left {
     
+}
+
+
+.rotate {
+    transform: rotate(360deg);
+  
+}
+
+.fade {
+   opacity: 0;
+  
 }
 
 
