@@ -1,17 +1,33 @@
 body {
-    min-height: 100vh;
+    height: 100vh;
+    min-height:  height: 100%;
+
 }
 
 .page-container {
+    height: 100%;
     width: 100%;
+    background: #efefef;
+    /* Taken from an MDN example */
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  
+
 }
 
 header, main {
     width: 100%;
     max-width: 720px;
-    height: 100%;
     margin: auto;
-    padding: 1rem.
+    padding: 1rem;
+}
+
+header {
+    height: 72px;
+}
+ main {
+    height: 100%;
 }
 
 
@@ -37,7 +53,7 @@ header h1 {
     padding: 1rem;
     border-radius: 0;
   
-    transition: opacity 0.25s ease, transform 1s ease, border-upper-left-radius 1s ease;
+    transition: opacity 0.25s ease, transform 0.5s ease, translate 0.5s ease;
     opacity: 1;
 
 }
@@ -51,35 +67,65 @@ header h1 {
 }
 
 #upper-left {
+    position: relative;
+    background-color: #ffffff;
+    top: 0;
+    z-index: 1
 
 }
 
 #upper-right {
+    position: relative;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1
     
 }
 
 #lower-right {
+    background-color: #ffffff;
 
 }
 
 #lower-left {
+    background-color: #ffffff;
     
 }
 
 
 .rotate-upper-left {
-    transform: rotate(-45deg);
-    border-top-left-radius: 50%;
+    transform: rotate(-30deg) skew(-30deg, -15deg); 
 }
 .rotate-upper-right {
-    transform: rotate(45deg);
+    transform: rotate(45deg) skew(30deg, 15deg);
+  
 }
 .rotate-lower-left {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) skew(-15deg, -30deg);
 }
 .rotate-lower-right {
-    transform: rotate(45deg);
+    transform: rotate(45deg) skew(30deg, 15deg);
 }
+
+
+.slide-upper-left {
+    transform:  translate(-500%, -500% );
+}
+
+.slide-upper-right {
+    transform:  translate(500%, -500% ) ;
+}
+
+.slide-lower-left {
+    transform:  translate(-500%, -500% );
+}
+
+.slide-lower-right {
+    transform:  translate(500%, 500% ) ;
+}
+
+
+
 
 
 .fade {
