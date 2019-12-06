@@ -52,13 +52,13 @@ header h1 {
     text-align: center;
     padding: 1rem;
     border-radius: 0;
-  
+    background-color: #ffffff;
     transition: opacity 0.25s ease, transform 0.5s ease, translate 0.5s ease;
     opacity: 1;
 
 }
 
-.panel h2 {
+.panel h2, .panel h3{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -66,29 +66,33 @@ header h1 {
     font-size: 3rem;
 }
 
+.panel h3 {
+    font-size: 4rem;
+}
+
 #upper-left {
     position: relative;
-    background-color: #ffffff;
+
     top: 0;
-    z-index: 1
+    z-index: 2;
 
 }
 
 #upper-right {
     position: relative;
     top: 0;
-    background-color: #ffffff;
-    z-index: 1
+ 
+    z-index: 2;
     
 }
 
 #lower-right {
-    background-color: #ffffff;
+ 
 
 }
 
 #lower-left {
-    background-color: #ffffff;
+  
     
 }
 
@@ -122,6 +126,10 @@ header h1 {
 
 .slide-lower-right {
     transform:  translate(500%, 500% ) ;
+}
+
+.return-to-origin {
+    transform: translate(0,0);
 }
 
 
